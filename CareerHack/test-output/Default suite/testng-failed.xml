@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.common.Dropdowntest">
+      <class name="com.common.CrossBrowserTest">
         <methods>
-          <include name="dropDown"/>
+          <include name="getBrowser"/>
         </methods>
-      </class> <!-- com.common.Dropdowntest -->
+      </class> <!-- com.common.CrossBrowserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
