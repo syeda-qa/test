@@ -26,6 +26,11 @@ public class Addition {
 		System.out.println("Sum of three numbers: " + sum);
 		return sum;
 	}
+	
+	void add(double a, double b) {
+		double sum = a+b;
+		System.out.println("Sum of two decimal number: "+sum);
+	}
 
 	public static void main(String[] args) {
 
