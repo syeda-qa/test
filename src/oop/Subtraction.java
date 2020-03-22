@@ -3,7 +3,7 @@ package oop;
 public class Subtraction extends Addition{
 	
 	//OOP
-	//1. inheritance - parent child relationship betweenn two class
+	//1. inheritance - parent child relationship between two class
 	//2. polymorphism - a. method overloading b. method overriding
 	//3. encapsulation
 	//4. abstraction
