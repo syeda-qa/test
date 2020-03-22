@@ -1,5 +1,7 @@
+@userRegistration
 Feature: user registration
 
+@userRistrationValid
 Scenario Outline: add a new valid user
 
 Given I am on the application homepage
