@@ -45,4 +45,4 @@ public class Addition {
 
 	}// end of main
 
-}// ennd of class
+}// end of class
