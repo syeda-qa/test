@@ -1,16 +1,18 @@
 package oop;
 
+import advnaced.Mulplication;
+
 public class Addition {
 
 	// three types of variable - 1. instance variable
 	// 2. local variable 3. static or class variable
 
 	// static or class variable - only one copy of the class
-	static String name = "Addition";
+	private static String name = "Addition";
 
 	// instance variable
-	int x;
-	int y;
+	public int x;
+	public int y;
 
 	// return type and method name
 	void add() {
@@ -21,13 +23,13 @@ public class Addition {
 
 	// ---method overloading
 	// method return
-	int add(int a, int b, int c) {
+	protected int add(int a, int b, int c) {
 		int sum = a + b + c;
 		System.out.println("Sum of three numbers: " + sum);
 		return sum;
 	}
 	
-	void add(double a, double b) {
+	public void add(double a, double b) {
 		double sum = a+b;
 		System.out.println("Sum of two decimal number: "+sum);
 	}
@@ -47,6 +49,9 @@ public class Addition {
 		a2.y = 200;
 		a2.add();
 		a2.add(100, 100, 100);
+		
+		Mulplication m1 = new Mulplication();
+		m1.multiple(10, 10);
 
 	}// end of main
 
