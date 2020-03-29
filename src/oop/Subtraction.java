@@ -6,7 +6,7 @@ public class Subtraction extends Addition{
 	//1. inheritance - parent child relationship between two class
 	//2. polymorphism - a. method overloading b. method overriding
 	//3. encapsulation - access rights
-	//4. abstraction
+	//4. abstraction - Abstract class & Interface
 	
 	void sub(int x, int y) {
 		int s = x-y;
