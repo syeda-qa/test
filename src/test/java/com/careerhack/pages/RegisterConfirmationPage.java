@@ -1,5 +1,12 @@
 package com.careerhack.pages;
 
-public class RegisterConfirmationPage {
+import org.openqa.selenium.WebDriver;
+
+public class RegisterConfirmationPage extends PageBase{
+
+	public RegisterConfirmationPage(WebDriver driver) {
+		super(driver);
+	}
+	
 
 }

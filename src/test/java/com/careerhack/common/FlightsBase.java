@@ -8,9 +8,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class FlightsBase {
+public abstract class FlightsBase {
 
-	public WebDriver driver;
+	protected WebDriver driver;
 	
 	String browser= new String("chrome");
 
@@ -35,5 +35,4 @@ public class FlightsBase {
 		driver.close(); //closes the active browser
 		//driver.quit(); //closes all the browser
 	}
-
 }
