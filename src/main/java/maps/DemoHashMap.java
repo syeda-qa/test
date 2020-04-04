@@ -11,6 +11,7 @@ public class DemoHashMap {
 		
 		score.put("Nazrul", 100);
 		score.put("Bristy", 100);
+		score.put("Nazrul", 98);
 		
 		System.out.println(score);
 		
