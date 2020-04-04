@@ -6,6 +6,7 @@ import org.testng.Assert;
 
 import com.careerhack.common.FlightsBase;
 import com.careerhack.pages.HomePage;
+import com.careerhack.pages.PageBase;
 import com.careerhack.pages.RegisterPage;
 
 import cucumber.api.java.en.Given;
@@ -72,7 +73,7 @@ public class UserRegistration extends FlightsBase {
 		// testng - assert - compare actual with expected
 		// expected page title "Register: Mercury Tours"
 		String title = driver.getTitle();
-		Assert.assertEquals(title, "Register: Mercury Tours");
+		PageBase.verifyPageTitle(title, "Register: Mercury Tours");
 		closeBrowser();
 	}
 

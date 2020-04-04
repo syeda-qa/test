@@ -32,7 +32,7 @@ public abstract class FlightsBase {
 	}
 	
 	public void closeBrowser() {
-		driver.close(); //closes the active browser
-		//driver.quit(); //closes all the browser
+		//driver.close(); //closes the active browser
+		driver.quit(); //closes all the browser
 	}
 }
