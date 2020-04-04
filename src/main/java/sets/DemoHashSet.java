@@ -18,6 +18,7 @@ public class DemoHashSet {
 		names.add("Jessifer");
 		
 		System.out.println(names);
+		System.out.println("Size of the set: "+names.size());
 		
 		names.clear();
 		
