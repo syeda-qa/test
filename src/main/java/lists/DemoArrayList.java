@@ -1,7 +1,8 @@
-package arrays;
+package lists;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class DemoArrayList {
 
@@ -30,7 +31,13 @@ public class DemoArrayList {
 		System.out.println(age.get(1));
 
 		System.out.println("Length of the ArrayList is: " + age.size());
-
+		
+		List<Integer> score = new ArrayList<Integer>();
+		
+		score.add(99);
+		score.add(100);
+		
+		System.out.println(score);
 	}
 
 }
