@@ -29,6 +29,7 @@ public class DemoArrayList {
 		age.add(1, 346); // replace a value from array list
 
 		System.out.println(age.get(1));
+		System.out.println(age);
 
 		System.out.println("Length of the ArrayList is: " + age.size());
 		
