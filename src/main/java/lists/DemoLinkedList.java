@@ -10,14 +10,14 @@ public class DemoLinkedList {
 		//is part of List Interface		
 		LinkedList<String> names = new LinkedList<String>();
 		
-		names.add("Biplob");
+		names.add("Biplob"); 
 		names.add("Jessifer");
 		names.add("Asif");
 		names.add("Jessifer");
 		
 		System.out.println(names.get(1));
 		
-		
+		//FIFO - First In First Out
 		System.out.println(names);
 		
 		List<Integer> score = new LinkedList<Integer>();
